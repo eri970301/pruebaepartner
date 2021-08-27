@@ -2,13 +2,151 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+	<title>Impormedical</title>
 </head>
 <body>
-	<header></header>
-	<aside></aside>
-	<p>Hola</p>
+	<!--Estructura de encabezado-->
+	<header>
+		<!--Seccion superior de encabezado-->
+		<section class="row d-flex">
+			<!--Logo y búsqueda-->
+			<div class="col-8 row align-items-center">
+				<img src="imagenes/iconosheader/logo.PNG" class="logoprincipal col-2" />
+				<form action="#" method="POST" class="row busqueda col-10">
+					<div class="col-11">
+						<input type="search" placeholder="¿QUÉ ESTÁS BUSCANDO? ESCRIBELO AQUÍ..."
+							class="form-control busquedainterna" />
+					</div>
+					<button type="button" class="btn btn-dark col-1 btnbusqueda">
+						<img src="imagenes/iconosheader/search.png" width="25px" />
+					</button>
+				</form>
+			</div>
+			<!--Links y carrito de compras-->
+			<div class="col-4 row align-items-center">
+				<div class="col-4 text-center">
+					<a href="#" class="pedidos">MIS PEDIDOS</a>
+				</div>
+				<div class="col-4 text-center">
+					<p>HOLA ALIAD@ <br />
+						<a href="#">INGRESA</a>
+					</p>
+				</div>
+				<div class="col-4 text-center">
+					<img src="imagenes/iconosheader/carrito.PNG" />
+					<p>CARRITO</p>
+				</div>
+			</div>
+		</section>
+		<!--Seccion inferior de encabezado, menú hamburguesa y navegación-->
+		<section class="row">
+			<div class="col-1">
+				<a href="#"><img src="imagenes/iconosheader/dropdown.png" class="iconos" /></a>
+			</div>
+			<nav class="col-11">
+				<ul class="row">
+					<li class="col-3"><img src="imagenes/iconosheader/movilidad.png" class="iconos" /><a href="#">MOVILIDAD</a></li>
+					<li class="col-3"><img src="imagenes/iconosheader/cuidado.png" class="iconos" /><a href="#">CUIDADO EN EL
+							HOGAR</a></li>
+					<li class="col-3"><img src="imagenes/iconosheader/profesional.png" class="iconos" /><a href="#">PROFESIONALES DE
+							LA SALUD</a></li>
+					<li class="col-3"><img src="imagenes/iconosheader/tapabocas.png" class="iconos" /><a href="#">TAPABOCAS Y
+							DESINFECCIÓN</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+	<!--Banner principal-->
+	<section>
+		<img src="imagenes/bannerprincipal.PNG" />
+	</section>
+	<!--Carrusel de imagenes-->
+	<section class="text-center mt-4 row">
+		<a href="#" class="col-3">
+			<figure><img src="imagenes/carrusel/baño.PNG"/><figcaption class="textoimagen">Seguridad en el baño</figcaption></figure>
+		</a>
+		<a href="#" class="col-3">
+			<figure><img src="imagenes/carrusel/tapabocas.PNG"/><figcaption class="textoimagen">tapabocas</figcaption></figure>
+		</a>
+		<a href="#" class="col-3">
+			<figure><img src="imagenes/carrusel/silla.PNG"/><figcaption class="textoimagen">Sillas de ruedas</figcaption></figure>
+		</a>
+		<a href="#" class="col-3">
+			<figure><img src="imagenes/carrusel/marcha.PNG"/><figcaption class="textoimagen">Ayudas para la marcha</figcaption></figure>
+		</a>
+	</section>
+	<!--Sección de nueva coleccion-->
+	<section>
+		<h2 class="nctitulo">NUEVA COLECCIÓN</h2>
+	</section>
+	<!--Footer-->
+	<footer>
 
+		<div class="row d-flex">
+			<!--Primera columna del footer-->
+			<div class="col-2 menufoot">
+				<h5 class="ftitulo">SOBRE NOSOTROS</h5>
+				<p class="fparrafo">¿Quienes somos?</p>
+				<p class="fparrafo">Nuestra historia</p>
+				<p class="fparrafo">Nuestra Información</p>
+			</div>
+			<!--Segunda columna del footer-->
+			<div class="col-3 menufoot">
+				<h5 class="ftitulo">CATEGORIAS DESTACADAS</h5>
+				<p class="fparrafo">Profesionales de la salud</p>
+				<p class="fparrafo">Protección e higiene</p>
+				<p class="fparrafo">Control y prevención</p>
+				<p class="fparrafo">Movilidad</p>
+				<p class="fparrafo">Independencia y cuidado en el hogar</p>
+				<p class="fparrafo">Terapia respiratoria</p>
+				<p class="fparrafo">Confort</p>
+			</div>
+			<!--tercera columna del footer-->
+			<div class="col-3 menufoot">
+				<h5 class="ftitulo">SERVICIO AL CLIENTE</h5>
+				<p class="fparrafo">Política de entregas</p>
+				<p class="fparrafo">Política de devoluciones</p>
+				<p class="fparrafo">Política de garantías</p>
+				<p class="fparrafo">Política de cancelación</p>
+				<p class="fparrafo">Whatsapp 123 123 3434</p>
+				<p class="fparrafo">PBX 01 800 123 345</p>
+				<p class="fparrafo">e-mail: info@impormedical.com</p>
+			</div>
+			<!--Cuarta columna del footer-->
+			<div class="col-4 menufoot">
+				<h5 class="foottextsuscribete">SUSCRÍBASE A NUESTRO NEWSLETTER</h5>
+				<!--Formulario de email-->
+				<form>
+					<input type="email" placeholder="Ingresa aquí tu e-mail" class="email">
+					<label class="fparrafo" for="acepto"><input type="checkbox" id="acepto" name="acepto">Aceptación de
+						términos y condiciones de manejo de datos</label>
+				</form>
+				<!--Imágenes de pago-->
+				<p class="fparrafo mt-4">Nuestros métodos de pago</p>
+				<div class="imagenespago d-flex justify-content-center flex-wrap">
+					<img src="imagenes/mediosdepago/mercadopago.png" class="iconosfoot"/>
+					<img src="imagenes/mediosdepago/americanexpress.png" class="iconosfoot"/>
+					<img src="imagenes/mediosdepago/dinersclub.png" class="iconosfoot"/>
+					<img src="imagenes/mediosdepago/efecty.png" class="iconosfoot"/>
+					<img src="imagenes/mediosdepago/mastercard.png" class="iconosfoot"/>
+					<img src="imagenes/mediosdepago/visa.png"class="iconosfoot"/>
+					<img src="imagenes/mediosdepago/pse.png" class="iconosfoot"/>
+				</div>
+			</div>
+			<hr class="separador"/>
+			<!--Copyright-->
+			<div class="col-12 text-center mt-4">
+				<p class="fparrafo">Desarrollado por <a href="#"><img src="imagenes/logosepartner.PNG" /><img src="" /></a></p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+/*----Colores----*/
+
+$fondo: #f4f4f4;
+$color1: #094f8a;
+$color2: #2d83df;
+$foot: #212121;
+$pfoot: #cfd600;
+
+/*---Tamaños---*/
+
+$icon: 25px;
+
+/*---Estilos principales---*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: $fondo;
+}
+
+/*---Estilos de header---*/
+
+header{
+    padding: 5px 60px;
+}
+.logoprincipal{
+    width: auto;
+    height: 80px;
+    margin-right: 25px;
+}
+.iconos{
+    width: $icon;
+    margin-right: 10px;   
+}
+.busqueda {
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 0px;
+}
+.busquedainterna{
+    border: none;
+    background-color: $fondo;
+    padding: 10px;
+}
+.btnbusqueda{
+    margin: 2px;
+    width: 7.5%;
+}
+.pedidos{
+    color: $color2;
+    text-align: center;
+}
+.menudropdown{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: $color1;
+}
+/*---Estilos carrusel---*/
+
+.textoimagen{
+    font-size: 20px;
+    color: $foot;
+    margin-top: 10px;
+}
+.textoimagen:hover{
+    color: $color2
+}
+
+/*--Estilos nueva coleccion--*/
+
+.nctitulo{
+    color: $color1;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*---Estilos de Footer---*/
+
+footer{
+    background-color: $foot;
+    padding: 15px 55px;
+}
+.ftitulo{
+    color: $pfoot;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+.fparrafo{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1;
+}
+.foottextsuscribete{
+    color: $pfoot;
+    margin-left: 5px;
+}
+.menufoot{
+    padding: 30px;
+}
+.email{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.iconosfoot{
+    width: 70px;
+    margin-bottom: 20px;
+    margin-right: 10px;   
+    text-align: center;
+}
+.separador{
+    height: 3px;
+    color:whitesmoke;
+}
