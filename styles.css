@@ -84,6 +84,17 @@ a:hover {
   margin-top: 60px;
 }
 
+.nctextoimagen {
+  font-size: 20px;
+  color: #212121;
+  margin-top: 10px;
+}
+
+.btnañadircar {
+  width: 100%;
+  display: none;
+}
+
 /*---Estilos de Footer---*/
 footer {
   background-color: #212121;
